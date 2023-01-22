@@ -16,7 +16,9 @@ const CakeView = () => {
         Order cake
       </button>
       <div className="mb-10px">
-        <label htmlFor="refilled-cakes">Refilled cakes</label>
+        <label htmlFor="refilled-cakes">
+          Put the amount of cake you need to refilled
+        </label>
         <input
           type="number"
           name="refilled-cakes"
